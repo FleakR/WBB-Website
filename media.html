@@ -2,35 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media: The Wee Bag Band</title>
 
-    <link rel="stylesheet" href="style.css" >
-    <link rel="stylesheet" href="mediaStyle.css" >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" >
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- Top banner with shimmer/mist effect and logo -->
+    <!-- Top banner -->
     <header id="banner" class="banner">
-
         <div class="mist"></div>
 
         <div class="bannerContent">
-
             <div class="mainLogo">
                 <a href="index.html">
                     <img src="Images/logo2.png" alt="The Wee Bag Band Logo">
                 </a>
             </div>
-
         </div>
-
     </header>
 
-    <!-- Navigation bar underneath -->
+    <!-- Navigation -->
     <nav class="navBar">
         <a href="index.html">Home</a>
         <a href="members.html">Members</a>
@@ -41,119 +37,118 @@
 
     <main>
 
-        <!-- Content inside a box -->
+        <!-- Gallery Section -->
         <section class="main">
-  <h1>Check out some of our advenures!</h1>
+            <h1>Check out some of our adventures!</h1>
 
-  <div id="gridGallery" class="gallery"></div>
+            <div id="gridGallery" class="gallery"></div>
 
-  <div id="modal" class="modal">
-    <span id="close">&times;</span>
+            <div id="modal" class="modal">
+                <span id="close">&times;</span>
 
-    <span id="prev" class="nav-btn">&#10094;</span>
-    <span id="next" class="nav-btn">&#10095;</span>
+                <span id="prev" class="nav-btn">&#10094;</span>
+                <span id="next" class="nav-btn">&#10095;</span>
 
-    <div class="modal-content">
-      <img id="modal-img" src="" alt="">
-      <p id="modal-caption"></p>
-    </div>
-  </div>
+                <div class="modal-content">
+                    <img id="modal-img" alt="Gallery image">
+                    <p id="modal-caption"></p>
+                </div>
+            </div>
+        </section>
 
-</section>
+        <!-- Video Section -->
+        <section class="videoSection">
+            <h2>Watch Our Videos</h2>
 
-        <!-- Third content section -->
-<section class="videoSection">
-  <h2>Watch Our Videos</h2>
+            <div class="video-wheel-wrapper">
+                <button id="videoPrev" class="video-nav">&#10094;</button>
 
-  <div class="video-wheel-wrapper">
-    <button id="videoPrev" class="video-nav">&#10094;</button>
+                <div id="videoCarousel" class="video-wheel"></div>
 
-    <div id="videoCarousel" class="video-wheel"></div>
+                <button id="videoNext" class="video-nav">&#10095;</button>
+            </div>
+        </section>
 
-    <button id="videoNext" class="video-nav">&#10095;</button>
-  </div>
-</section>
+        <!-- Video Modal -->
+        <div id="videoModal" class="video-modal">
+            <span id="videoClose">&times;</span>
 
-<div id="videoModal" class="video-modal">
-  <span id="videoClose">&times;</span>
+            <div class="video-modal-content">
+                <iframe id="youtubeFrame" allowfullscreen></iframe>
 
-  <div class="video-modal-content">
-    <iframe id="youtubeFrame" src="" allowfullscreen></iframe>
-
-    <a id="youtubeExternalLink" href="#" target="_blank">
-      Watch on YouTube
-    </a>
-  </div>
-</div>
-    </a>
-  </div>
-</div>
+                <a id="youtubeExternalLink" href="#" target="_blank">
+                    Watch on YouTube
+                </a>
+            </div>
+        </div>
 
     </main>
 
-<!-- Footer -->
-<footer class="siteFooter">
-    <div class="footerBottom">
+    <!-- Footer -->
+    <footer class="siteFooter">
+        <div class="footerBottom">
 
-        <div class="socialIcons">
-            <a href="https://www.instagram.com/weebagband/" aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
+            <div class="socialIcons">
+                <a href="https://www.instagram.com/weebagband/" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
 
-            <a href="https://www.facebook.com/weebagband" aria-label="Facebook">
-                <i class="fab fa-facebook-f"></i>
-            </a>
+                <a href="https://www.facebook.com/weebagband" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
 
-            <a href="https://www.youtube.com/@weebagband" aria-label="YouTube">
-                <i class="fab fa-youtube"></i>
-            </a>
-            <a href="https://encoremusicians.com/The-Wee-Bag-Band" aria-label="Encore Musicians">
-                <i class="fas fa-music"></i>
-            </a>
-        </div>
+                <a href="https://www.youtube.com/@weebagband" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
 
-        <div class="footerText">
-            © 2026 The Wee Bag Band — All Rights Reserved
-        </div>
+                <a href="https://encoremusicians.com/The-Wee-Bag-Band" aria-label="Encore Musicians">
+                    <i class="fas fa-music"></i>
+                </a>
+            </div>
 
-        <div class="contactArea">
+            <div class="footerText">
+                © 2026 The Wee Bag Band — All Rights Reserved
+            </div>
 
-    <button class="contactButton" id="contactBtn">
-        Contact us
-    </button>
+            <div class="contactArea">
 
-    <div class="contactCard" id="contactCard">
+                <button class="contactButton" id="contactBtn">
+                    Contact us
+                </button>
 
-        <div class="cardHeader">
-            BAND CONTACT
-        </div>
+                <div class="contactCard" id="contactCard">
 
-        <img src="Images/logo2.png"
-             alt="Band Photo"
-             class="contactImage">
+                    <div class="cardHeader">
+                        BAND CONTACT
+                    </div>
 
-        <div class="cardContent">
+                    <img src="Images/logo2.png"
+                         alt="Band Photo"
+                         class="contactImage">
 
-            <p><strong>Phone:</strong><br>
-            +44 7860 435993</p>
+                    <div class="cardContent">
 
-            <p><strong>Email:</strong><br>
-            rory@weebagband.co.uk</p>
+                        <p><strong>Phone:</strong><br>
+                        +44 7860 435993</p>
 
-            <div class="cardMessage">
-                Available for bookings, festivals, weddings, functions, pridate doo's and live events.
+                        <p><strong>Email:</strong><br>
+                        rory@weebagband.co.uk</p>
+
+                        <div class="cardMessage">
+                            Available for bookings, festivals, weddings, functions, private doo's and live events.
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
+    </footer>
 
-    </div>
-
-    </div>
-    </div>
-</footer>
-
-<script src="index.js"></script>
-<script src="media.js"></script>
+    <script src="index.js"></script>
+    <script src="media.js"></script>
 
 </body>
 
