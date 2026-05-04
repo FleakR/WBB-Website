@@ -1,4 +1,4 @@
-/* Contact Panel JS */
+/* Contact panel JS */
 const contactBtn = document.getElementById("contactBtn");
 const contactCard = document.getElementById("contactCard");
 
@@ -7,7 +7,7 @@ contactBtn.addEventListener("click", () => {
 });
 
 
-/* Logo Appearing JS */
+/* Logo appearing JS */
 window.addEventListener("load", function () {
   const logo = document.querySelector(".mainLogo");
   if (!logo) return;
@@ -29,7 +29,7 @@ window.addEventListener("load", function () {
 });
 
 
-/* MOUSE TAIL */
+/* Mouse tail */
 document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("mousemove", (e) => {
     const clover = document.createElement("div");
