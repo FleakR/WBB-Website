@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enquiries: The Wee Bag Band</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="enquiryStyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- Top banner with shimmer/mist effect and logo -->
+    <header id="banner" class="banner">
+
+        <div class="mist"></div>
+
+        <div class="bannerContent">
+
+            <div class="mainLogo">
+                <a href="index.html">
+                    <img src="Images/logo2.png" alt="The Wee Bag Band Logo">
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Navigation bar underneath -->
+    <nav class="navBar">
+        <a href="index.html">Home</a>
+        <a href="members.html">Members</a>
+        <a href="diary.html">Diary</a>
+        <a href="media.html">Media</a>
+        <a href="enquiries.html" class="active">Enquiries</a>
+    </nav>
+
+    <main>
+
+        <!-- Content inside box -->
+        <section class="main">
+            <script src="shows.js"></script>
+            <script src="enquiry.js"></script>
+            <form id="enquiry-form">
+
+                <div class="row">
+                    <div class="field">
+                        <label for="title">Title</label>
+                        <input type="text" id="title" name="title" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="enquiry-date">Select a date (optional)</label>
+                        <input type="date" id="enquiry-date" name="date">
+                        <p id="date-warning" aria-live="polite"></p>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" maxlength="350"
+                        placeholder="Please write your message here..." required></textarea>
+
+                    <p>
+                        <span id="char-count">0</span>/350 characters
+                    </p>
+                </div>
+
+                <button type="submit" id="submit-btn">Send Enquiry</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="siteFooter">
+        <div class="footerBottom">
+
+            <div class="socialIcons">
+                <a href="https://www.instagram.com/weebagband/" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/weebagband" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://www.youtube.com/@weebagband" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://encoremusicians.com/The-Wee-Bag-Band" aria-label="Encore Musicians">
+                    <i class="fas fa-music"></i>
+                </a>
+            </div>
+
+            <div class="footerText">
+                © 2026 The Wee Bag Band — All Rights Reserved
+            </div>
+
+            <div class="contactArea">
+
+                <button class="contactButton" id="contactBtn">
+                    Contact us
+                </button>
+
+                <div class="contactCard" id="contactCard">
+
+                    <div class="cardHeader">
+                        BAND CONTACT
+                    </div>
+
+                    <img src="Images/logo2.png" alt="The Wee Bag Band Logo" class="contactImage">
+
+                    <div class="cardContent">
+
+                        <p><strong>Phone:</strong><br>
+                            +44 7860 435993</p>
+
+                        <p><strong>Email:</strong><br>
+                            rory@weebagband.co.uk</p>
+
+                        <div class="cardMessage">
+                            Available for bookings, festivals, weddings, functions, pridate doo's and live events.
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

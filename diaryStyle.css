@@ -1,0 +1,116 @@
+/* Calendar container */
+#calendar {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #111827;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  border: 1px solid #1f2937;
+}
+
+/* Event details box */
+#show-details {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+}
+
+/* ===== FullCalendar Styling ===== */
+
+/* Header */
+.fc-toolbar-title {
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+/* Buttons */
+.fc-button {
+  background: #1f2937 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  color: #ffffff !important;
+  padding: 6px 12px !important;
+  transition: all 0.2s ease;
+}
+
+.fc-button:hover {
+  background: #374151 !important;
+}
+
+/* Today highlight */
+.fc-day-today {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Day numbers */
+.fc-daygrid-day-number {
+  color: #ffffff;
+}
+
+/* ===== EVENT BADGES ===== */
+.fc-event {
+  background: linear-gradient(135deg, #00e317, #ffbf00);
+  border: none;
+
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.85rem;
+
+  border-radius: 8px;
+  padding: 4px 6px;
+
+  /* Glow + depth */
+  box-shadow: 
+    0 2px 6px rgba(0,0,0,0.4),
+    0 0 8px rgba(255, 191, 0, 0.4);
+
+  /* Readability */
+  text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+
+  transition: all 0.2s ease;
+
+  /* Allow expansion */
+  overflow: visible !important;
+}
+
+/* Hover effect */
+.fc-event:hover {
+  transform: translateY(-1px) scale(1.03);
+  box-shadow: 
+    0 4px 10px rgba(0,0,0,0.6),
+    0 0 12px rgba(255, 191, 0, 0.6);
+  cursor: pointer;
+}
+
+/* ===== TEXT WRAPPING FIX ===== */
+
+/* Allow event text to wrap */
+.fc-event-title {
+  white-space: normal !important;
+  overflow: visible !important;
+  line-height: 1.2;
+}
+
+/* Let event container grow */
+.fc-daygrid-event {
+  white-space: normal !important;
+  align-items: flex-start !important;
+}
+
+/* ===== GRID ===== */
+
+/* Grid lines */
+.fc-theme-standard td,
+.fc-theme-standard th {
+  border-color: #1f2937;
+}
+
+/* Day hover */
+.fc-daygrid-day:hover {
+  background: rgba(255,255,255,0.03);
+}
