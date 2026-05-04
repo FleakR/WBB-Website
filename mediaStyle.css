@@ -98,7 +98,7 @@
 
 
 
-/* fehgwreshg */
+/* Video carousel */
 
 .videoSection {
   margin-top: 50px;
@@ -250,7 +250,7 @@
   text-decoration: underline;
 }
 
-/* RESPONSIVE */
+/* Mobile Viewing */
 
 @media (max-width: 900px) {
   .gallery {
