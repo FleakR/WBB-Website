@@ -20,8 +20,6 @@
   box-shadow: 0 6px 20px rgba(0,0,0,0.5);
 }
 
-/* ===== FullCalendar Styling ===== */
-
 /* Header */
 .fc-toolbar-title {
   color: #ffffff;
@@ -52,7 +50,7 @@
   color: #ffffff;
 }
 
-/* ===== EVENT BADGES ===== */
+
 .fc-event {
   background: linear-gradient(135deg, #00e317, #ffbf00);
   border: none;
@@ -64,17 +62,15 @@
   border-radius: 8px;
   padding: 4px 6px;
 
-  /* Glow + depth */
+  /* Glow and depth */
   box-shadow: 
     0 2px 6px rgba(0,0,0,0.4),
     0 0 8px rgba(255, 191, 0, 0.4);
 
-  /* Readability */
   text-shadow: 0 1px 3px rgba(0,0,0,0.7);
 
   transition: all 0.2s ease;
 
-  /* Allow expansion */
   overflow: visible !important;
 }
 
@@ -86,8 +82,6 @@
     0 0 12px rgba(255, 191, 0, 0.6);
   cursor: pointer;
 }
-
-/* ===== TEXT WRAPPING FIX ===== */
 
 /* Allow event text to wrap */
 .fc-event-title {
@@ -102,8 +96,6 @@
   align-items: flex-start !important;
 }
 
-/* ===== GRID ===== */
-
 /* Grid lines */
 .fc-theme-standard td,
 .fc-theme-standard th {
@@ -114,8 +106,6 @@
 .fc-daygrid-day:hover {
   background: rgba(255,255,255,0.03);
 }
-
-/* ===== MOBILE FIXES ===== */
 
 @media (max-width: 768px) {
   #calendar,
