@@ -10,7 +10,7 @@
   border-radius: 28px;
 }
 
-/* TITLE */
+/* Title */
 .enquiry-section h2 {
   margin: 0;
   padding: 42px 42px 10px;
@@ -20,7 +20,7 @@
   text-align: center;
 }
 
-/* INTRO TEXT */
+/* Input text */
 .enquiry-section p {
   margin: 0;
   padding: 0 42px 34px;
@@ -30,7 +30,6 @@
   line-height: 1.6;
 }
 
-/* FORM */
 #enquiry-form {
   padding: 0 42px 42px;
   border-radius: 0 0 22px 22px;
@@ -38,7 +37,6 @@
   gap: 18px;
 }
 
-/* ROW */
 .row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -46,7 +44,6 @@
   align-items: start;
 }
 
-/* FIELD */
 .field {
   display: flex;
   flex-direction: column;
@@ -81,7 +78,6 @@
     0 0 28px rgba(0, 255, 106, 0.32);
 }
 
-/* LABELS */
 #enquiry-form label {
   color: #12df50;
   font-size: 20px;
@@ -95,7 +91,7 @@
   color: #e63946;
 }
 
-/* INPUTS - INVISIBLE INNER BOXES */
+/* Inputs - Invisible inner boxes */
 #enquiry-form input,
 #enquiry-form textarea {
   width: 100%;
@@ -120,31 +116,27 @@
   color: rgba(255, 255, 255, 0.55);
 }
 
-/* DATE ICON WHITE FIX */
+/* Calenday set to white */
 #enquiry-form input[type="date"]::-webkit-calendar-picker-indicator {
   filter: invert(1) brightness(2);
   cursor: pointer;
 }
 
-/* MESSAGE */
 #message {
   min-height: 160px;
   resize: vertical;
 }
 
-/* CHARACTER COUNT */
 #char-count {
   color: #00c853;
   font-weight: 700;
 }
 
-/* WARNINGS */
 #date-warning {
   color: #ffb703;
   font-size: 14px;
 }
 
-/* BUTTON */
 #submit-btn {
   margin-top: 10px;
   justify-self: center;
@@ -178,7 +170,7 @@
   transform: none;
 }
 
-/* MOBILE */
+/* Mobile viewing */
 @media (max-width: 768px) {
   .enquiry-section {
     margin: 24px;
