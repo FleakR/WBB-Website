@@ -102,7 +102,7 @@ document.addEventListener("keydown", function(event) {
 
 
 
-/* fehgwreshg */
+/* Video carousel */
 
 const videoCarousel = document.getElementById("videoCarousel");
 const videoModal = document.getElementById("videoModal");
