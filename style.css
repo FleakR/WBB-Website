@@ -10,7 +10,7 @@ body {
   overflow-x: hidden;
 }
 
-/* HEADER */
+/* Header */
 #banner {
   position: relative;
   padding: 40px;
@@ -21,7 +21,7 @@ body {
   overflow: hidden;
 }
 
-/* MOUSE TAIL */
+/* Mouse tail */
 .clover {
   position: fixed;
   pointer-events: none;
@@ -41,7 +41,7 @@ body {
   }
 }
 
-/* shimmer */
+/* Shimmer */
 #banner::after {
   content: "";
   position: absolute;
@@ -78,7 +78,7 @@ body {
   }
 }
 
-/* banner content */
+/* Banner content */
 .bannerContent {
   position: relative;
   z-index: 3;
@@ -99,7 +99,7 @@ body {
   height: auto;
 }
 
-/* navigation */
+/* Navigation */
 .navBar {
   text-align: center;
   width: 100%;
@@ -126,7 +126,7 @@ body {
   text-shadow: 0 0 10px #3fa34d;
 }
 
-/* HERO SECTION */
+/* Hero section */
 .heroSection {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.65)),
@@ -137,7 +137,7 @@ body {
   padding: 60px 20px;
 }
 
-/* MAIN CONTENT */
+/* main content */
 .main {
   position: relative;
   margin: 40px auto 60px;
@@ -165,7 +165,7 @@ body {
   max-width: 800px;
 }
 
-/* body image */
+/* Body image */
 .bodyImage {
   width: 100%;
   max-width: 800px;
@@ -177,7 +177,7 @@ body {
   box-shadow: 0 0 15px rgba(63, 163, 77, 0.4);
 }
 
-/* FOOTER */
+/* Footer */
 .siteFooter {
   width: 100%;
   background: linear-gradient(to top, #020402, #071207);
@@ -185,7 +185,7 @@ body {
   box-shadow: 0 -5px 25px rgba(63, 163, 77, 0.25);
 }
 
-/* FOOTER CONTENT */
+/* Footter content */
 .footerBottom {
   position: relative;
   display: flex;
@@ -197,7 +197,7 @@ body {
   color: rgba(232, 226, 198, 0.75);
 }
 
-/* SOCIAL ICONS */
+/* Social icons */
 .socialIcons {
   position: absolute;
   left: 10px;
@@ -218,20 +218,20 @@ body {
   text-shadow: 0 0 10px rgba(63, 163, 77, 0.6);
 }
 
-/* COPYRIGHT TEXT */
+/* Copyright bit */
 .footerText {
   text-align: center;
   letter-spacing: 0.5px;
 }
 
-/* CONTACT AREA */
+/* Contact us */
 .contactArea {
   position: absolute;
   right: 20px;
   z-index: 10000;
 }
 
-/* CONTACT BUTTON */
+/* Contact panel button */
 .contactButton {
   padding: 8px 16px;
   border: 1px solid #3fa34d;
@@ -249,7 +249,7 @@ body {
   box-shadow: 0 0 12px rgba(63, 163, 77, 0.6);
 }
 
-/* CONTACT CARD */
+/* Contact panel */
 .contactCard {
   position: absolute;
   bottom: 55px;
@@ -309,7 +309,7 @@ body {
   color: rgba(232, 226, 198, 0.8);
 }
 
-/* MOBILE */
+/* Mobile viewing */
 @media (max-width: 850px) {
 
   .mainLogo img {
@@ -329,7 +329,7 @@ body {
     font-size: 1rem;
   }
 
-  /* FOOTER MOBILE */
+  /* mobile footer button */
   .footerBottom {
     flex-direction: column;
     gap: 12px;
@@ -345,7 +345,7 @@ body {
     font-size: 0.8rem;
   }
 
-  /* MOBILE CONTACT PANEL */
+  /* Mobile contact panel */
   .contactArea {
     position: relative;
     right: auto;
