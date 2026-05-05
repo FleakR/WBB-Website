@@ -154,7 +154,7 @@
 
   .fc-event-title {
     line-height: 1.15;
-    word-break: break-word;
+    word-break: break-all;
   }
 
   .fc-daygrid-day-number {
